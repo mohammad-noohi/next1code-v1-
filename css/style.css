@@ -39,10 +39,6 @@ body {
 }
 
 /*header navigation */
-.header .nav-list {
-  /* اینجا باید لیست استایل ایتم مینویشتیم اما 
-    چون تو یونیورسال نوشتیم دیگه نیازی نیست */
-}
 
 .header .nav-list .nav-item {
   display: inline-block;
@@ -98,16 +94,9 @@ body {
   margin-bottom: 15px;
 }
 
-.members .member-list {
-  /* اینجا باید لیست استایل ایتم مینویشتیم اما 
-    چون تو یونیورسال نوشتیم دیگه نیازی نیست */
-}
-
 .members .member-list .member-card {
   width: 350px;
   display: inline-block;
-  /* border: 1px solid red;    */
-  /* این بوردر برای دیدن بهتر بود */
   margin: 10px;
   box-shadow: rgb(111, 108, 108) 0px 5px 15px;
   border-radius: 8px;
@@ -122,10 +111,7 @@ body {
 
 .members .member-list .member-card .member-pic {
   width: 100%;
-  /* این ۱۰۰درصد برای اینه که تصویر از کادر بیرون نزنه */
   border-radius: 8px 8px 0 0;
-  /* دقت کن وقتی به خود کارت بوردر ردیوس میدی بالاها که عکسه
-    خمیده نمیشه و برای همین به خود عکس هم بوردر ردیوس دادم */
 }
 
 .members .member-list .member-card .member-name {
